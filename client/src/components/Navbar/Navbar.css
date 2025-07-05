@@ -1,0 +1,97 @@
+.nav-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(18, 18, 18, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(218, 165, 32, 0.2);
+    transition: all 0.3s ease;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 1rem 1rem;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo {
+    color: #DAA520;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+    cursor: pointer;
+    letter-spacing: -0.5px;
+    transition: all 0.3s ease;
+}
+
+.logo:hover {
+    color: #F4C430;
+    transform: translateY(-2px);
+}
+
+.brand-tagline {
+    color: #B8860B;
+    font-size: 0.75rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    margin-top: -3.5px;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.nav-item {
+    cursor: pointer;
+    position: relative;
+    color: #FFFF;
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.nav-item:hover {
+    color: #DAA520;
+    transform: translateY(-1px);
+}
+
+.lang-selector {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.8rem;
+}
+
+.lang {
+    color: #FFF;
+    font-size: 0.875rem;
+    font-weight: 500;
+    font-style: italic;
+    cursor: crosshair;
+    transition: all 0.3s ease;
+}
+
+.lang:hover {
+    color: #DAA520;
+    transform: translateY(-1px);
+}

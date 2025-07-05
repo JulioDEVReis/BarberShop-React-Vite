@@ -1,0 +1,144 @@
+.footer {
+    background: linear-gradient(135deg, #0A0A0A 0%, #1A1A1A 100%);
+    color: #ffff;
+    padding: 3rem 0;
+    position: relative;
+}
+
+.footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #DAA520, transparent);
+}
+
+.footer-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.brand-section {
+    gap: 0.4rem;
+}
+
+.footer-logo {
+    color: #DAA520;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.footer-tagline {
+    color: #B8860b;
+    font-size: 1.05rem;
+    font-weight: 500;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.4;
+}
+
+.social-links {
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+    height: 40px;
+}
+
+.social-link {
+    transition: all 0.3s ease;
+}
+
+.social-link img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    border-radius: 10px;
+    background: #fff;
+    padding: 3px;
+}
+
+.social-link:hover {
+    transform: translateY(-3px);
+}
+
+.footer-title {
+    color: #DAA520;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 0 1rem 0;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    text-align: end;
+}
+
+.schedule-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    text-align: end;
+}
+
+.contact-info p,
+.schedule-info p {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.footer-bottom {
+    margin-top: 2rem;
+}
+
+.footer-divider {
+    height: 1px;
+    background: rgba(218, 165, 32, 0.2);
+    margin-bottom: 2rem;
+}
+
+.footer-legal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.9rem;
+}
+
+.legal-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.legal-links a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.legal-links a:hover {
+    color: #DAA520;
+}
+

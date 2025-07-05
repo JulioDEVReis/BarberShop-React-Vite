@@ -1,0 +1,91 @@
+.contact-section {
+    background: #181818;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container {
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 18px;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.8rem 2.5rem;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.15);
+}
+
+.contact-title {
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+    background: rgba(218, 165, 32, 0.1);
+    color: #daa520;
+    border: 1px solid rgba(218, 165, 32, 0.3);
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+
+.contact-form .form-group {
+    margin-bottom: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    color: #fff;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.contact-form input, .contact-form textarea {
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    background: #222;
+    color: #fff;
+    margin-bottom: 0.2rem;
+    outline: none;
+    transition: box-shadow 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    box-shadow: 0 0 0 2px #ffd700;
+}
+
+.radio-group {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.6rem;
+    color: #ffd700;
+}
+
+.radio-group label {
+    margin-right: 1.2rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.contact-btn {
+    width: 100%;
+    background: linear-gradient(90deg, #ffd700 0%, #b8860b 100%);
+    color: #222;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 0.6rem 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+    margin-top: 0.6rem;
+}
+
+.contact-btn:hover {
+    background: linear-gradient(90deg, #b8860b 0%, #ffd700 100%);
+    color: #000;
+}
