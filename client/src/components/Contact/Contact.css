@@ -89,3 +89,19 @@
     background: linear-gradient(90deg, #b8860b 0%, #ffd700 100%);
     color: #000;
 }
+
+/* Media Mobile */
+@media screen and (max-width: 480px) {
+    .contact-container {
+        padding: 1.2rem;
+    }
+
+    .contact-title {
+        font-size: 0.9rem;
+    }
+
+    .contact-form label {
+        margin-bottom: 0.3rem;
+        font-size: 0.9rem;
+    }
+}
