@@ -2,15 +2,17 @@
     padding: 4rem 1rem 2rem;
     background:linear-gradient(135deg, #daa520 0%, #1a1a1a 100%);
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .about-container {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 2rem;
-    position: relative;
+    width: 100%;
+    box-sizing: border-box;
     z-index: 1;
+    overflow-x: hidden;
 }
 
 .about-header {
@@ -49,10 +51,24 @@
     gap: 4rem;
     align-items: center;
     position: relative;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .about-texts {
     color: #FFFFFF;
+}
+
+.about-texts,
+.about-image,
+.stats-card,
+.feature-items {
+    min-width: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
 }
 
 .first-text {
@@ -212,4 +228,87 @@
     width: 1px;
     height: 40px;
     background: rgba(218, 165, 32, 0.3);
+}
+
+/* Media tablet */
+@media screen and (max-width: 800px) {
+    .aboutus {
+        padding: 2rem 0.4rem 2rem;
+        background:linear-gradient(135deg, #daa520 -50%, #1a1a1a 70%);
+    }
+
+    .about-container {
+        padding: 0 1rem;
+    }
+
+    .about-subtitle {
+        font-size: 1.9rem;
+    }
+
+    .about-textgrid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .about-texts p {
+        font-size: 1.1rem;
+        line-height: 1.3;
+        margin-bottom: 1.1rem;
+    }
+
+    .about-features {
+        margin: 2.5rem 0;
+    }
+
+    .feature-items {
+        margin-bottom: 1.4rem;
+        padding: 1rem;
+    }
+    
+    .cta {
+        justify-content: center;
+    }
+
+    .stats-card {
+        position: static;
+        padding: 1.5rem;
+        justify-content: center;
+        gap: 6rem;
+    }
+}
+
+
+/* Media mobile */
+@media screen and (max-width: 480px) {
+    
+    .about-title {
+        padding: 0.5rem 1.5rem;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    .about-subtitle {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .about-texts p {
+        font-size: 1rem;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+    }
+
+    .about-features {
+        margin: 2rem 0;
+    }
+
+    .feature-items {
+        margin-bottom: 1.2rem;
+    }
+
+    .stats-card {
+        padding: 1.5rem;
+        justify-content: center;
+        gap: 1rem;
+    }
 }
