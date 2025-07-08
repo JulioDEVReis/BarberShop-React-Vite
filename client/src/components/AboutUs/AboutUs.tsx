@@ -48,7 +48,7 @@ const AboutUs = () => {
                 <div className="image-overlay">
                   <span className="overlay-text">{t('about.image')}</span>
                 </div>
-                <img src="public/images/barbershop.jpg" alt="BarberShop Pro Interior" className="image" />
+                <img src="/images/barbershop.jpg" alt="BarberShop Pro Interior" className="image" />
               </div>
             </div>
             <div className="stats-card">

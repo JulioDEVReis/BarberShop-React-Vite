@@ -3,11 +3,11 @@ import "./Gallery.css"
 import { useTranslation } from "react-i18next";
 
 const galleryImages = [
-    { id: 1, src: "public/images/barber1.jpg" },
-    { id: 2, src: "public/images/barber2.jpg" },
-    { id: 3, src: "public/images/gallery1.jpg" },
-    { id: 4, src: "public/images/gallery2.jpg" },
-    { id: 5, src: "public/images/barber5.jpg" },
+    { id: 1, src: "/images/barber1.jpg" },
+    { id: 2, src: "/images/barber2.jpg" },
+    { id: 3, src: "/images/gallery1.jpg" },
+    { id: 4, src: "/images/gallery2.jpg" },
+    { id: 5, src: "/images/barber5.jpg" },
 ];
 
 const AUTO_PLAY_INTERVAL = 2500;  // Tempo em ms
