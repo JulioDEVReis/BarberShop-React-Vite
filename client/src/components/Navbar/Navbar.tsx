@@ -1,7 +1,14 @@
 import "./Navbar.css";
 import { useState } from "react";   
+import { useTranslation } from "react-i18next";
 
 const Navbar: React.FC = () => {
+    const { t, i18n } = useTranslation();
+    // Language change
+    const changeLanguage = (lng: string) => {
+        i18n.changeLanguage(lng);
+    };
+
     const [isMenuOpen, setIsMenuOpen] = useState(false); 
 
     const toggleMenu = () => {
@@ -17,26 +24,26 @@ const Navbar: React.FC = () => {
                 </div>
                 <ul className={`nav-items ${isMenuOpen ? 'nav-open' : ''}`}>
                     <li className="nav-item">
-                        <a href="#home" className="nav-link">Home</a>
+                        <a href="#home" className="nav-link">{t('navbar.home')}</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#specialities" className="nav-link">Specialities</a>
+                        <a href="#specialities" className="nav-link">{t('navbar.specialities')}</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#aboutus" className="nav-link">About Us</a>
+                        <a href="#aboutus" className="nav-link">{t('navbar.aboutus')}</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#gallery" className="nav-link">Gallery</a>
+                        <a href="#gallery" className="nav-link">{t('navbar.gallery')}</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#contact" className="nav-link">Schedule Now</a>
+                        <a href="#contact" className="nav-link">{t('navbar.contact')}</a>
                     </li>
                 </ul>
                 <div>
-                    <ul className="lang-selector">
-                        <li className="lang">PT</li>
-                        <li className="lang">EN</li>
-                    </ul>
+                    <div className="lang-selector">
+                        <button className="lang" onClick={() => changeLanguage('pt')} type="button">PT</button>
+                        <button className="lang" onClick={() => changeLanguage('en')} type="button">EN</button>
+                    </div>
                 </div>
                 <button className="menu-toggle" onClick={toggleMenu}>
                     <span className={`hamburguer ${isMenuOpen ? 'active' : ''}`}>

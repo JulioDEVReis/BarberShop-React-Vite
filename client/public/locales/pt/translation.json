@@ -1,0 +1,109 @@
+{
+    "navbar": {
+        "home": "Início",
+        "specialities": "Especialidades",
+        "aboutus": "Sobre Nós",
+        "gallery": "Galeria",
+        "contact": "Agende Agora"
+    },
+    "banner": {
+        "title": "Eleve seu Estilo.<br />Descubra essa nova experiência<br />em Viseu",
+        "subtitle": "Cortes Clássicos, Técnicas Modernas. Marque seu horário e transforme seu visual hoje!",
+        "button": "Marque agora"
+    },
+    "specialities": {
+        "badge": "Nossos Serviços",
+        "title": "Especialidades Premium - BarberShop",
+        "subtitle": "Nós oferecemos uma gama completa de serviços com a mais alta qualidade em Viseu",
+        "services": {
+            "id1": {
+                "name": "Cortes Clássicos",
+                "description" : "Corte tradicional com acabamento impecável"
+            },
+            "id2": {
+                "name": "Barba e Bigode",
+                "description" : "Aparar e modelar com navalha tradicional"
+            },
+            "id3": {
+                "name": "Corte + Barba",
+                "description" : "Pacote completo de cuidados e higiene pessoal masculina"
+            },
+            "id4": {
+                "name": "Tratamento Capilar",
+                "description" : "Hidratação e revitalização do couro cabeludo"
+            },
+            "id5": {
+                "name": "Estilo Moderno",
+                "description" : "Cortes Contemporâneos e Estilosos"
+            },
+            "id6": {
+                "name": "Cuidado Facial",
+                "description" : "Limpeza de pele e cuidado facial masculino"
+            }
+        },
+        "popular": "Mais Popular",
+        "book": "Marque Agora!",
+        "footer": "Não encontrou oque estava procurando?<br />Contacte-nos para serviços personalizados.",
+        "button": "Contacte-nos agora!"
+    },
+    "about": {
+        "badge": "Sobre Nós - BarberShop Pro - Viseu",
+        "title": "Tradição e excelência em Viseu",
+        "first": "Bem-vindo a BarberShop Pro, onde a tradição clássica da barbearia encontra as modernas técnicas de cuidados masculinos.",
+        "first2": "Localizada no coração de Viseu, nossa barbearia é um paraíso de estilo e sofisticação para homens modernos. Com mais de uma década de experiência, nós oferecemos variados serviços premium desde cortes classicos a tratamento de barba personalizados.",
+        "card1": {
+            "title": "Excelencia",
+            "description": "Premiado como a melhor barbearia em Viseu em 2023"
+        },
+        "card2": {
+            "title": "Técnicas Tradicionais",
+            "description": "Métodos clássicos combinados com equipamentos modernos."
+        },
+        "card3": {
+            "title": "Produtos Premium",
+            "description": "Apenas os melhores produtos de cuidados masculinos."
+        },
+        "image": "Ambiente Premium",
+        "button": "Agende agora!",
+        "stat-label1": "Clientes Satisfeitos",
+        "stat-label2": "Anos de Expêriencia"
+    },
+    "gallery": {
+        "title": "Nosso Mundo Maravilhoso",
+        "images": {
+            "alt1": "Barba",
+            "alt2": "Barba Estilizada",
+            "alt3": "Estilo Undercut",
+            "alt4": "Corte Clássico",
+            "alt5": "Corte de Cabelo Moderno"
+        }
+    },
+    "contact": {
+        "title": "Contacto e reserva",
+        "form" : {
+            "first-name": "Nome *",
+            "last-name": "Apelido *",
+            "mobile": "Número de telemóvel *",
+            "radio-button": {
+                "text": "Receber promoções e emails de campanhas?",
+                "yes": "Sim",
+                "no": "Não"
+            },
+            "message": "Mensagem",
+            "button": "Enviar"
+        }
+    },
+    "footer": {
+        "brand-tagline": "Tratamento Premium em Viseu",
+        "description": "Sua barbearia de confiança no coração de Viseu.<br />Excelencia em todos os cortes, tradição em todos os serviços.",
+        "schedules": "Horários",
+        "schedule-info": {
+            "p1": "Segunda - Sexta: 9h - 19h",
+            "p2": "Sabádo: 10h - 16h",
+            "p3": "Domingo: Fechado"
+        },
+        "legal1": "&copy; 2025 BarberShop Pro 1. Todos os direitos reservados",
+        "legal2": "Política de privacidade",
+        "lagel3": "Termos de Serviço"
+    }
+}

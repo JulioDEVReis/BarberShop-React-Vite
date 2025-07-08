@@ -1,0 +1,109 @@
+{
+    "navbar": {
+        "home": "Home",
+        "specialities": "Specialities",
+        "aboutus": "About Us",
+        "gallery": "Gallery",
+        "contact": "Schedule Now"
+    },
+    "banner": {
+        "title": "Elevate your Style.<br />Discover the Barber Experience<br />in Viseu",
+        "subtitle": "Classic cuts, modern techniques. Book your appointment and transform your look today!",
+        "button": "Book Now"
+    },
+    "specialities": {
+        "badge": "Ours Services",
+        "title": "Premium Specialities - BarberShop",
+        "subtitle": "We offer a full range of men's grooming services with the highest quality in Viseu",
+        "services": {
+            "id1": {
+                "name": "Classic Cut",
+                "description" : "Traditional cut with impeccable finish"
+            },
+            "id2": {
+                "name": "Beard & Mustache",
+                "description" : "Trimming and shaping with a traditional razor"
+            },
+            "id3": {
+                "name": "Cut + Beard",
+                "description" : "Complete male grooming package"
+            },
+            "id4": {
+                "name": "Hair Treatment",
+                "description" : "Hydration and revitalization of the scalp"
+            },
+            "id5": {
+                "name": "Modern Style",
+                "description" : "Contemporary and stylish cuts"
+            },
+            "id6": {
+                "name": "Facial Grooming",
+                "description" : "Men's facial cleansing and care"
+            }
+        },
+        "popular": "More Popular",
+        "book": "Book Now!",
+        "footer": "Didn't find what you're looking for?<br />Contact us for personalized services.",
+        "button": "Contact Now!"
+    },
+    "about": {
+        "badge": "About Us - BarberShop Pro - Viseu",
+        "title": "Tradition and Excellence in Viseu",
+        "first": "Welcome to BarberShop Pro, where classic barbering tradition meets modern men's grooming techniques.",
+        "first2": "Located in the heart of Viseu, our barbershop is a haven of style and sophistication for the modern man. With over a decade of experience, we offer premium services ranging from classic cuts to personalized beard treatments.",
+        "card1": {
+            "title": "Excellence",
+            "description": "Awarded as the best barber shop in Viseu in 2023"
+        },
+        "card2": {
+            "title": "Traditional Techniques",
+            "description": "Classical methods combined with modern equipment"
+        },
+        "card3": {
+            "title": "Premium Products",
+            "description": "Only the best men's grooming products"
+        },
+        "image": "Premium Ambient",
+        "button": "Schedule now!",
+        "stat-label1": "Satisfied Customers",
+        "stat-label2": "Years of Experience"
+    },
+    "gallery": {
+        "title": "Our Wonderful Work",
+        "images": {
+            "alt1": "Beard",
+            "alt2": "Styled Beard",
+            "alt3": "Undercut",
+            "alt4": "Classic Cut",
+            "alt5": "Modern HairCut"
+        }
+    },
+    "contact": {
+        "title": "Contact & Booking",
+        "form" : {
+            "first-name": "First Name *",
+            "last-name": "Last Name *",
+            "mobile": "Mobile Number *",
+            "radio-button": {
+                "text": "Receive promotions and campaign emails?",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "message": "Message",
+            "button": "Send"
+        }
+    },
+    "footer": {
+        "brand-tagline": "Premium Groming in Viseu",
+        "description": "Your trusted barber shop in the heart of Viseu.<br />Excellence in every cut, tradition in every service.",
+        "schedules": "Schedules",
+        "schedule-info": {
+            "p1": "Monday - Friday: 9h - 19h",
+            "p2": "Saturday: 10h - 16h",
+            "p3": "Sunday: Closed"
+        },
+        "legal1": "&copy; 2025 BarberShop Pro 1. All rights reserved",
+        "legal2": "Privacy Policy",
+        "lagel3": "Terms of Service"
+    }
+}
