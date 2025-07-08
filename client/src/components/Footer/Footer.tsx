@@ -15,10 +15,10 @@ const Footer: React.FC = () => {
                 <p className="footer-description"><Trans i18nKey='footer.description' /></p>
                 <div className="social-links">
                     <a href="#" className="social-link">
-                        <img src="/public/images/footer/facebook.png" alt="Facebook Link" />
+                        <img src="/images/footer/facebook.png" alt="Facebook Link" />
                     </a>
                     <a href="#" className="social-link">
-                        <img src="/public/images/footer/instagram.png" alt="Instagram link" />
+                        <img src="/images/footer/instagram.png" alt="Instagram link" />
                     </a>
                 </div>
             </div>
