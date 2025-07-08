@@ -14,7 +14,7 @@ const BannerHome = () => {
             <a href="#Contact" className="banner-cta">{t('banner.button')}</a>
         </div>
       </div>
-      <img className="banner-image" src="/public/images/banner.jpg" alt="BarberShop" loading="lazy" />
+      <img className="banner-image" src="/images/banner.jpg" alt="BarberShop" loading="lazy" />
     </section>
   );
 };
