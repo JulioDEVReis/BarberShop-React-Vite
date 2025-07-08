@@ -108,6 +108,8 @@
 
 .lang {
     color: #FFF;
+    background: none;
+    border: none;
     font-size: 0.875rem;
     font-weight: 500;
     font-style: italic;
