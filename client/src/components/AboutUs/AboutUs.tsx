@@ -40,7 +40,7 @@ const AboutUs = () => {
                 </div>
               </div>
               <div className="cta">
-                <button className="cta-button">{t('about.button')}</button>
+                <button className="cta-button" onClick={() => window.location.href="#contact"}>{t('about.button')}</button>
               </div>
             </div>
             <div className="about-image">
