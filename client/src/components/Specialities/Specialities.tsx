@@ -54,6 +54,16 @@ const Specialities: React.FC = () => {
         }
     ];
 
+    const handleBookClick = (serviceId: number) => {
+        const serviceName = t(`specialities.services.id${serviceId}.name`);
+        localStorage.setItem('selectedService', serviceName);
+
+        const contactSection = document.getElementById('contact');
+        if (contactSection) {
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return (
         <section className="specialities-section" id="specialities">
             <div className="specialities-container">
@@ -79,7 +89,7 @@ const Specialities: React.FC = () => {
                                         <span className="price">{service.price}</span>
                                         <span className="duration">{service.duration}</span>
                                     </div>
-                                    <button className="book-button">{t('specialities.book')}</button>
+                                    <button className="book-button" onClick={() => handleBookClick(service.id)}>{t('specialities.book')}</button>
                                 </div>
                             </div>
                         </div>
@@ -87,7 +97,7 @@ const Specialities: React.FC = () => {
                 </div>
                 <div className="section-footer">
                     <p className="footer-text"><Trans i18nKey="specialities.footer" /></p>
-                    <button className="contact-button">{t('specialities.button')}</button>
+                    <button className="contact-button" onClick={() => window.location.href = "#contact"}>{t('specialities.button')}</button>
                 </div>
             </div>
         </section>

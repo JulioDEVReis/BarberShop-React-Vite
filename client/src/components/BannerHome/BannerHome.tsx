@@ -11,7 +11,7 @@ const BannerHome = () => {
         <div className="banner-content">
             <h1 className="banner-title"><Trans i18nKey="banner.title" /></h1>
             <p className="banner-subtitle">{t('banner.subtitle')}</p>
-            <a href="#Contact" className="banner-cta">{t('banner.button')}</a>
+            <a href="#contact" className="banner-cta">{t('banner.button')}</a>
         </div>
       </div>
       <img className="banner-image" src="/images/banner.jpg" alt="BarberShop" loading="lazy" />
