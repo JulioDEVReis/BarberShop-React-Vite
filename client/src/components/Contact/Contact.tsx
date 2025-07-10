@@ -1,5 +1,5 @@
 import "./Contact.css";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import emailjs from 'emailjs-com';
 
@@ -8,14 +8,22 @@ const Contact = () => {
     const [promoOptIn, setPromoOptIn] = useState(false);
 
     const formRef = useRef<HTMLFormElement>(null);
-    const handleSubmit = (e: React.FormEvent) => {
+    const messageRef = useRef<HTMLTextAreaElement>(null);
+
+    useEffect(() => {
+        const service = localStorage.getItem("selectedService");
+        if (service && messageRef.current) {
+            messageRef.current.value = `${service}`;
+        }
+    }, []);
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         if (formRef.current) {
             emailjs.sendForm(
-                'service_jzr1pdi',
-                'template_h1hdu0d',
+                import.meta.env.VITE_EMAILJS_SERVICE_ID,
+                import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
                 formRef.current,
-                'eRCWWIvBPBxu260OC'
+                import.meta.env.VITE_EMAILJS_PUBLIC_KEY
             ).then(
                 (_result) => {
                     alert("Mensagem enviada com sucesso");
@@ -63,7 +71,7 @@ const Contact = () => {
                     </div>
                     <div className="form-group">
                         <label htmlFor="message">{t('contact.form.message')}</label>
-                        <textarea id="message" name="message" rows={4} />
+                        <textarea id="message" name="message" rows={4} ref={messageRef} />
                     </div>
                     <button type="submit" className="contact-btn">{t('contact.form.button')}</button>
                 </form>
